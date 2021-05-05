@@ -83,27 +83,37 @@ def drawing(ImageName):
         j = j+1
     ax.imshow(im)
     plt.show()
+    Menu()
 
-def imageChooser(ImageChoice):
-    if ImageChoice == 1:
+def imageChooser():
+    option = int(input('Which file would you like to open(use numbers): '))
+
+    if option == 1:
         return '1_6.jpg'
-    if ImageChoice == 2:
+ 
+    elif option == 2:
         return '7_12.jpg'
-    if ImageChoice == 3:
+ 
+    elif option == 3:
         return '110.jpg'
-    if ImageChoice == 4:
+ 
+    elif option == 4:
         return '361_366_D211AABB3A20200005.jpg'
-    else:
-        return '1_6.jpg'
 
-def main():
+    else:
+        print("Incorrect option")
+        Menu()
+
+def Menu():
     print("1. 1_6.jpg")
     print("2. 7_12.jpg")
     print("3. 110.jpg")
     print("4. 361_366_D211AABB3A20200005.jpg")
-    ImageChoice = input('Which file would you like to open: ')
-    ImageName = imageChooser(ImageChoice)
+    ImageName = imageChooser()
     drawing(ImageName)
+
+def main():
+    Menu()
 
 if __name__ == "__main__":
     main()
