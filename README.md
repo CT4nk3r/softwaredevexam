@@ -95,4 +95,4 @@ If you happen not to have pip -> `python -m pip install -U pip` <- ez updateolni
 
 
 ## Use Case Diagram
-![IMAGE](UseCaseDiagramV2.png)
+![IMAGE](.png)
