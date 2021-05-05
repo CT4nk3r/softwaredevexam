@@ -13,8 +13,15 @@ def jsopen(filename) -> dict:
 panel1 = jsopen('Panels_1.json')
 p10i = panel1['Panels_1'][0]['Images']
 p11i = panel1['Panels_1'][1]['Images']
-Panels = p10i + p11i
-p12 = panel1['Panels_1'][2]
+panel3 = jsopen('Panels_3.json')
+p30i = panel3['Panels_3'][0]['Images']
+p31i = panel3['Panels_3'][1]['Images']
+panel6 = jsopen('Panels_6.json')
+p60i = panel6['Panels_6'][0]['Images']
+p61i = panel6['Panels_6'][1]['Images']
+Panels = p10i + p11i + p30i + p31i +  p60i + p61i
+
+errors = panel1['Panels_1'][2]
 
 def color_switch(color_code):
     if color_code == 0:
@@ -78,7 +85,7 @@ def drawing(ImageName):
     plt.show()
 
 def main():
-    ImageName = '1_6.jpg'
+    ImageName = '361_366_D211AABB3A20200005.jpg'
     drawing(ImageName)
 
 if __name__ == "__main__":
