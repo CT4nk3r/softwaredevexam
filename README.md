@@ -6,6 +6,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Use Case Diagram](#usecase)
+* [Object Digram](#object)
 
 ## JSON Info
 Mik is vannak a JSON-ben? Egyszerű szerencsére. Tartalmazza, hogy el van-e látva jegyzetekkel, ki jegyzetelt, És melyik képeken (képekre még visszatérünk), a jegyzetek pontossága és azok ID-ja.
