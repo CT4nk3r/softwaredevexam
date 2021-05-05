@@ -12,9 +12,10 @@ A program alapvetően amikor megnyílik akkor kér egy számot a felhasználóto
 Az egész program nagyon szépen végigsuhan mind a 3 JSON fájlon és megnézi melyikben található  a mi általunk keresett képnek az adatai. Ezeket az adatokat felhasználva pedig négyzetekkel be is jelöli a hibákat a PDF-ben látható módon.
 
 Miután végez a program a kép szerkesztésével, utána felugrik nekik egy ablakban (vicces módon az első található python képszerkesztőt használtam amit a kereső mutatott https://www.w3schools.com/python/matplotlib_intro.asp ugyanis ezt már ismerősökkel használtuk Párhuzamos Programozás órán is)
-</p>
-![logo](Figure_1.png)
 
+![IMAGE](Figure_1.png)
+
+</p>
 ## Technologies
 Project is created with:
 * Python version: 3.8.7 :snake:
