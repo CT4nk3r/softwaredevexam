@@ -5,6 +5,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Use Case Diagram](#usecase)
 
 ## JSON Info
 Mik is vannak a JSON-ben? Egyszerű szerencsére. Tartalmazza, hogy el van-e látva jegyzetekkel, ki jegyzetelt, És melyik képeken (képekre még visszatérünk), a jegyzetek pontossága és azok ID-ja.
@@ -91,3 +92,7 @@ Now we have to use python to download the modules that we need, mainly we are us
 Open up the python terminal and type in to download discordpy: `python -m pip install -U matplotlib`
 
 If you happen not to have pip -> `python -m pip install -U pip` <- ez updateolni fogja majd a pip-ünket és remélhetőleg lehet majd látni
+
+
+## Use Case Diagram
+![IMAGE](usecasediagram.png)
