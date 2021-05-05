@@ -1,12 +1,12 @@
 # softwaredevexam
 ![header](header_exam.png)
 ## Table of contents
-* [Mik vannak a JSON-ban?](json-info)
+* [JSON Info](json-info)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## Mik vannak a JSON-ban?
+## JSON Info
 
 ## General info
 <p align="center">
