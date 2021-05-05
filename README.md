@@ -25,7 +25,7 @@ Hoztam is egy kis példakódot:
 .
 .
 ```
-
+Szóóóóóval, mi is mit jelent? Röviden: -> `ObjectIndex` az hiba fajtája, `Height` a négyzetünk magassága, `Width` a négyzetünk szélessége, `CenterX` és `CenterY` pedig ennek a szép XY koordinátája
 
 ## General info
 <p align="center">
