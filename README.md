@@ -16,14 +16,16 @@ Miután végez a program a kép szerkesztésével, utána felugrik nekik egy abl
 ![IMAGE](Figure_1.png)
 
 Természetesen nagyon könnyen hozzá lehet még adni másik képeket csak annyit kell tenni, hogy a main.py `imageChooser():` részébe hozzá kell adni opciókat még
-PÉLDA: 
-#imageChooser():
+PÉLDA:
+imageChooser():
 ```
 elif option == 5:
   return 'D210AABB3A20200185.jpg'
 ```
 illetve ide is kell még egy opció
-#Menu():
+
+<h4>Menu():</h4>
+
 ```
 print('5. D210AABB3A20200185.jpg')
 ```
