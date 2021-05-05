@@ -4,7 +4,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-
 ## General info
 2021 Május 5.-én reggel tíz órakor nekiültem ennek a feladatnak, eleinte sok düh és még annál is több energiaital kellett, viszont büszke vagyok magamra, és arra amit képes voltam összehözni.
 
@@ -13,7 +12,10 @@ Az egész program nagyon szépen végigsuhan mind a 3 JSON fájlon és megnézi 
 
 Miután végez a program a kép szerkesztésével, utána felugrik nekik egy ablakban (vicces módon az első található python képszerkesztőt használtam amit a kereső mutatott https://www.w3schools.com/python/matplotlib_intro.asp ugyanis ezt már ismerősökkel használtuk Párhuzamos Programozás órán is)
 
-![logo](Figure_1.png)
+<p align="center">
+    ![logo](Figure_1.png)
+</p>
+
 ## Technologies
 Project is created with:
 * Python version: 3.8.7 :snake:
