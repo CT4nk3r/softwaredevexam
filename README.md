@@ -14,6 +14,9 @@ Az egész program nagyon szépen végigsuhan mind a 3 JSON fájlon és megnézi 
 Miután végez a program a kép szerkesztésével, utána felugrik nekik egy ablakban (vicces módon az első található python képszerkesztőt használtam amit a kereső mutatott https://www.w3schools.com/python/matplotlib_intro.asp ugyanis ezt már ismerősökkel használtuk Párhuzamos Programozás órán is)
 
 ![IMAGE](Figure_1.png)
+![IMAGE](Figure_2.png)
+![IMAGE](Figure_3.png)
+![IMAGE](Figure_4.png)
 
 Természetesen nagyon könnyen hozzá lehet még adni másik képeket csak annyit kell tenni, hogy a main.py `imageChooser():` részébe hozzá kell adni opciókat még
 PÉLDA:
