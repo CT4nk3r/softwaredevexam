@@ -31,6 +31,8 @@ Hoztam is egy kis példakódot:
 Szóóóóóval, mi is mit jelent? Röviden: -> `ObjectIndex` az hiba fajtája, `Height` a négyzetünk magassága, `Width` a négyzetünk szélessége, `CenterX` és `CenterY` pedig ennek a szép XY koordinátája
 Ezeket később használjuk is majd a kódban
 
+<h4>main.py</h4>
+
 ```
 posx = (CenterX*im.width) - ((Width*im.width)/2)
 posy = (CenterY*im.height) - ((Height*im.height)/2)
