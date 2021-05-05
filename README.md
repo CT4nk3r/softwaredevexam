@@ -1,9 +1,13 @@
 # softwaredevexam
 ![header](header_exam.png)
 ## Table of contents
+* [Mik vannak a JSON-ban?](json-info)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+
+## Mik vannak a JSON-ban?
+
 ## General info
 <p align="center">
 2021 Május 5.-én reggel tíz órakor nekiültem ennek a feladatnak, eleinte sok düh és még annál is több energiaital kellett, viszont büszke vagyok magamra, és arra amit képes voltam összehözni.
