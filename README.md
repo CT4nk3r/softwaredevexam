@@ -16,6 +16,7 @@ Miután végez a program a kép szerkesztésével, utána felugrik nekik egy abl
 ![IMAGE](Figure_1.png)
 
 </p>
+
 ## Technologies
 Project is created with:
 * Python version: 3.8.7 :snake:
