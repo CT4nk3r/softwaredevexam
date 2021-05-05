@@ -17,7 +17,9 @@ Miután végez a program a kép szerkesztésével, utána felugrik nekik egy abl
 
 Természetesen nagyon könnyen hozzá lehet még adni másik képeket csak annyit kell tenni, hogy a main.py `imageChooser():` részébe hozzá kell adni opciókat még
 PÉLDA:
+
 <h4>imageChooser():</h4>
+
 ```
 elif option == 5:
   return 'D210AABB3A20200185.jpg'
