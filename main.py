@@ -11,52 +11,64 @@ def jsopen(filename) -> dict:
     return file_contents
 
 panel1 = jsopen('Panels_1.json')
-
 p10i = panel1['Panels_1'][0]['Images']
 p11i = panel1['Panels_1'][1]['Images']
+Panels = p10i + p11i
 p12 = panel1['Panels_1'][2]
 
 def color_switch(color_code):
     if color_code == 0:
-        return 'Yellow'        
+        # "Name": "Examined are"
+        return 'Yellow'  
+    if color_code == 1:
+        # "Name": "Micro crack"
+        return 'Green'      
     elif color_code == 2:
-        return 'Green'
+        #"Name": "Crack"
+        return 'Blue'
     elif color_code == 3:
+        #"Name": "Short circuit cell"
         return 'Blue'
     elif color_code == 4:
+        #"Name": "Contamination"
         return 'Lime'
     elif color_code == 5:
+        #"Name": "Dark spot"
         return 'Lime'
     elif color_code == 6:
+        #"Name": "Unknown  error"
         return 'Lime'
     elif color_code == 7:
-        return 'Cyan'
+        #"Name": "Scratch"
+        return 'Lime'
     elif color_code == 8:
+        #"Name": "Low power cell"
         return 'Orange'
     elif color_code == 9:
+        #"Name": "Short circuit string"
         return 'Red'
     else:
-        return 'Lime'
+        return 'Magenta'
 
 def drawing(ImageName):
     fig, ax = plt.subplots()
     im = Image.open(ImageName)
     j = 0
     found = False
-    while(j < len(p10i) and not found):
-        if p10i[j]['ImageName'] == ImageName:
-            for i in range(len (p10i[j]['BoundingBoxes'])):
-                CenterY = p10i[j]['BoundingBoxes'][i]['CenterY']
-                print(p10i[j]['BoundingBoxes'][i]['CenterY'])
-                CenterX = p10i[j]['BoundingBoxes'][i]['CenterX']
-                print(p10i[j]['BoundingBoxes'][i]['CenterX'])
-                Width = p10i[j]['BoundingBoxes'][i]['Width']
-                print(p10i[j]['BoundingBoxes'][i]['Width'])
-                Height = p10i[j]['BoundingBoxes'][i]['Height']
-                print(p10i[j]['BoundingBoxes'][i]['Height'])
+    while(j < len(Panels) and not found):
+        if Panels[j]['ImageName'] == ImageName:
+            for i in range(len (Panels[j]['BoundingBoxes'])):
+                CenterY = Panels[j]['BoundingBoxes'][i]['CenterY']
+                print(Panels[j]['BoundingBoxes'][i]['CenterY'])
+                CenterX = Panels[j]['BoundingBoxes'][i]['CenterX']
+                print(Panels[j]['BoundingBoxes'][i]['CenterX'])
+                Width = Panels[j]['BoundingBoxes'][i]['Width']
+                print(Panels[j]['BoundingBoxes'][i]['Width'])
+                Height = Panels[j]['BoundingBoxes'][i]['Height']
+                print(Panels[j]['BoundingBoxes'][i]['Height'])
                 posx = (CenterX*im.width) - ((Width*im.width)/2)
                 posy = (CenterY*im.height) - ((Height*im.height)/2)
-                color_code = p10i[j]['BoundingBoxes'][i]['ObjectIndex']
+                color_code = Panels[j]['BoundingBoxes'][i]['ObjectIndex']
                 color = color_switch(color_code)
                 rect = patches.Rectangle((posx, posy), Width*im.width, Height*im.height, linewidth=1, edgecolor=color, facecolor='none')
                 ax.add_patch(rect)
