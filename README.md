@@ -10,6 +10,9 @@
 Mik is vannak a JSON-ben? Egyszerű szerencsére. Tartalmazza, hogy el van-e látva jegyzetekkel, ki jegyzetelt, És melyik képeken (képekre még visszatérünk), a jegyzetek pontossága és azok ID-ja.
 Térjünk is vissza a Images részre, hiszen ez a legérdekesebb 😀
 Hoztam is egy kis példakódot: 
+
+<h4>Panels_1.json</h4>
+  
 ```
 .
 .
