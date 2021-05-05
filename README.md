@@ -1,12 +1,31 @@
 # softwaredevexam
 ![header](header_exam.png)
 ## Table of contents
-* [Mik vannak a JSON-ben?](#json-info)
+* [JSON Info](#json-info)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## Mik vannak a JSON-ben?
+## JSON Info
+Mik is vannak a JSON-ben? Egyszerű szerencsére. Tartalmazza, hogy el van-e látva jegyzetekkel, ki jegyzetelt, És melyik képeken (képekre még visszatérünk), a jegyzetek pontossága és azok ID-ja.
+Térjünk is vissza a Images részre, hiszen ez a legérdekesebb 😀
+Hoztam is egy kis példakódot: 
+```
+.
+.
+.
+{
+  "ObjectIndex": 4,
+  "Height": 0.04901081,
+  "CenterY": 0.830822945,
+  "CenterX": 0.397598863,
+  "Width": 0.0310734455
+},
+.
+.
+.
+```
+
 
 ## General info
 <p align="center">
