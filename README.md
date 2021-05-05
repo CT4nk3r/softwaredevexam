@@ -26,6 +26,17 @@ Hoztam is egy kis példakódot:
 .
 ```
 Szóóóóóval, mi is mit jelent? Röviden: -> `ObjectIndex` az hiba fajtája, `Height` a négyzetünk magassága, `Width` a négyzetünk szélessége, `CenterX` és `CenterY` pedig ennek a szép XY koordinátája
+Ezeket később használjuk is majd a kódban
+
+```
+posx = (CenterX*im.width) - ((Width*im.width)/2)
+posy = (CenterY*im.height) - ((Height*im.height)/2)
+.
+.
+.
+rect = patches.Rectangle((posx, posy), Width*im.width, Height*im.height, linewidth=1, edgecolor=color, facecolor='none')
+```           
+
 
 ## General info
 <p align="center">
