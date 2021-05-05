@@ -15,6 +15,20 @@ Miután végez a program a kép szerkesztésével, utána felugrik nekik egy abl
 
 ![IMAGE](Figure_1.png)
 
+Természetesen nagyon könnyen hozzá lehet még adni másik képeket csak annyit kell tenni, hogy a main.py `imageChooser():` részébe hozzá kell adni opciókat még
+PÉLDA: 
+#imageChooser():
+```
+elif option == 5:
+  return 'D210AABB3A20200185.jpg'
+```
+illetve ide is kell még egy opció
+#Menu():
+```
+print('5. D210AABB3A20200185.jpg')
+```
+és természetesen be kell húzni azt a képet a mappába
+
 </p>
 
 ## Technologies
