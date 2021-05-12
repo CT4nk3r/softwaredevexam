@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 import json
-
+from gtts import gTTS
+import os
 
 def jsopen(filename) -> dict:
     file = open(filename,'r')
@@ -100,6 +101,10 @@ def imageChooser():
     elif option == 4:
         return '361_366_D211AABB3A20200005.jpg'
 
+    elif option == 8:
+        imagename = str(input('mi a kép neve? (.jpg-vel együtt): '))
+        return imagename
+
     else:
         print("Incorrect option")
         Menu()
@@ -109,6 +114,7 @@ def Menu():
     print("2. 7_12.jpg")
     print("3. 110.jpg")
     print("4. 361_366_D211AABB3A20200005.jpg")
+    print("8. sajat megadasa")
     ImageName = imageChooser()
     drawing(ImageName)
 
